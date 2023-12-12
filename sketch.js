@@ -1,7 +1,7 @@
 let id = Math.floor(Math.random() * 1000000);
 
 function setup() {
-  createCanvas(400, 600);
+  createCanvas(300, 700);
 
 
   strokeWeight(0.1);
