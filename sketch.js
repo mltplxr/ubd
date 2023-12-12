@@ -1,13 +1,8 @@
 let id = Math.floor(Math.random() * 1000000);
-let svg;
 
-function preload() {
-  svg = loadImage("helios.svg");
-}
 function setup() {
   createCanvas(400, 600);
 
-  image(svg, 10, 0, 360, 600);
 
   strokeWeight(0.1);
   noFill(0);
